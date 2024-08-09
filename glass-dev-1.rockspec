@@ -1,7 +1,8 @@
 package = "glass"
 version = "dev-1"
 source = {
-	url = "git+https://github.com/darkwiiplayer/glass"
+	--url = "git+https://github.com/darkwiiplayer/glass"
+	url = "git+https://github.com/erikLundstedt/glass-fennel-loader"
 }
 description = {
 	summary = "A library to load configuration files by accessing tables",
@@ -22,6 +23,7 @@ build = {
 		["glass.error"] = "glass/error.lua",
 		["glass.json"] = "glass/json.lua",
 		["glass.lua"] = "glass/lua.lua",
+		["glass.fnl"] = "glass/fnl.lua",
 		["glass.raw"] = "glass/raw.lua",
 		["glass.skooma.html"] = "glass/skooma/html.lua",
 		["glass.skooma.xml"] = "glass/skooma/xml.lua",
