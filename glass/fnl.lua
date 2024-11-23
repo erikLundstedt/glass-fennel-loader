@@ -9,6 +9,6 @@ local fennel = require("fennel")
 local installed = fennel.install()
 local function _1_(name)
   local cfg = installed.dofile((name .. ".fnl"))
-  return (cfg or {})
+  return true, cfg
 end
 return _1_

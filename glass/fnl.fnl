@@ -11,5 +11,5 @@
 (local installed (fennel.install))
 (fn [name]
   (local cfg (installed.dofile (.. name :.fnl)))
-  (or cfg {})
+  (values true cfg)
   )
