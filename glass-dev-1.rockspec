@@ -24,6 +24,7 @@ build = {
 		["glass.json"] = "glass/json.lua",
 		["glass.lua"] = "glass/lua.lua",
 		["glass.fnl"] = "glass/fnl.lua",
+		["glass.fennel"] = "glass/fennel.lua",
 		["glass.raw"] = "glass/raw.lua",
 		["glass.skooma.html"] = "glass/skooma/html.lua",
 		["glass.skooma.xml"] = "glass/skooma/xml.lua",
